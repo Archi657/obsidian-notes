@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "S3 (Simple Storage Service).md",
+                "file": "AWS/AWS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "S3 (Simple Storage Service)"
+              "title": "AWS"
             }
           }
         ],
@@ -179,9 +179,9 @@
   },
   "active": "5e8e19ad28192cc1",
   "lastOpenFiles": [
+    "S3 (Simple Storage Service).md",
     "AWS/Services/EC2 (Elastic Compute Cloud).md",
     "AWS/AWS.md",
-    "S3 (Simple Storage Service).md",
     "Welcome.md",
     "Untitled.md",
     "AWS/Services/EC2.md",

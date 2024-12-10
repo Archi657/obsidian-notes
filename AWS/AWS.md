@@ -2,6 +2,12 @@
 Exam : [AWS Certification Account](https://www.aws.training/certification)
 # Services
 [[ EC2 (Elastic Compute Cloud)]] (Virtual Server, Security Group)
+**Amazon LightSaIl** Friendly version of EC2, eg, launch wordpress
+**Elastic Container Service (ECS)** Container orchestration service
+**Elastic Container Registry (ECR)** Repository for container images
+**ECS Fargate** Serverless orchestration, do not have to upgrade/scale always run ECS
+**Elastic Kubernetes Services (EKS)** Kubernetes as a Service
+**AWS Lambda** Serverless function service
 [[ IAM ]] (Root account, Users, Groups, Politics, Roles)
 [[ Amazon MQ ]]
 [[ Amazon Simple Queue Service (Amazon SQS)]]
@@ -27,6 +33,18 @@ Exam : [AWS Certification Account](https://www.aws.training/certification)
 [[ S3 (Simple Storage Service)]]
 [[ EBS (Elastic Block Store]]
 [[ EFS (Elastic File System)]]
+EBS Single AZ, EC2 and EB2 must be on the same AZ
+EFS Regional Service, multiple AZs, can use AWS Direct Connect.
+**AWS RDS** Relational DB 
+**Amazon Aurora** Mysql Postgress - 6 copies - 1/10 price - Recovery - 5 Times Faster
+**Dynamon DB** 
+**Aamazon Redshift** Data Warehouse, Single SQL against hexabytes, larger-sets, 10 times higher performance than regular DBs
+**Amazon DMS** Amazon Database Migration Service - Remains operational during migration - Can be of diff type (Homogenous same type) (Heterogenous diff type) - DB Consolidation (many to one DB)
+**Amazon DocumentDB** MongoDB
+**Amazon Neptune** is a graph database service, work with highly connected datasets, such as recommendation engines, fraud detection, and knowledge graphs.
+**Amazon Managed Blockchain** is a service that you can use to create and manage blockchain networks with open-source frameworks. Blockchain is a distributed ledger system that lets multiple parties run transactions and share data without a central authority.
+**Amazon Quantum Ledger DB (QLDB)** Ledger database service, you can use Amazon QLDB to review a complete history of all the changes that have been made to your application data.
+**Amazon ElastiCache** Improve lifting - DAX for DynamoDB
 # Pricing
 AWS Developer Support, AWS Business Support, AWS Enterprise On-Ramp Support y AWS Enterprise Support. Todos los clientes de AWS disponen de un plan de soporte básico.
 
@@ -61,9 +79,6 @@ Cloud Computing has a lot of advantages:
 - Provision exactly the **right type and size of computing resources** you need
 - Access as many resources as you need, **almost instantly**
 - Simple way to access **servers, storage, databases** and a set of application services
-
-![[AWS-Pricing.png]]
-
 ## Deployment Models of the Cloud
 
 ## Private Cloud
@@ -73,20 +88,17 @@ e.g. Rackspace
 - Complete control
 - Security for sensitive applications
 - Meet specific business needs
-
 ## Public Cloud
 e.g. Azure, Google, AWS
 
 - Cloud resources owned and operated by a third-party cloud service provider delivered over the internet
 - [[#Six Advantages of Cloud Computing]]
-
 ## Hybrid Cloud
 e.g. Your own Infra with Cloud, like AWS
 
 - Keep some servers on premises and extend some capabilities to the Cloud
 - Control over sensitive assets in your private infrastructure
 - Flexibility and cost-effectiveness of the public cloud
-
 ## The Five Characteristics of Cloud Computing
 
 **On-demand self service:**
@@ -117,7 +129,6 @@ e.g. Your own Infra with Cloud, like AWS
 - No costs of maintaining
 **Go global in minutes**
 - Leverage the AWS global infrastructure
-
 ## Problems solved by the Cloud
 
 - **Flexibility:** Change resource types when needed
