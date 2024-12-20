@@ -2,6 +2,7 @@ Amazon S3 offers unlimited storage space. The maximum file size for an object in
 There are different storage classes and you have to keep in mind
 - How often you plan to retrieve your data
 - How available you need your data to be
+**S3 Storage Lens:** This service provides organization-wide visibility into object storage usage and activity.
 ## S3 Standard
 - Designed for frequently accessed data
 - Stores data in a minimum of three Availability Zones
