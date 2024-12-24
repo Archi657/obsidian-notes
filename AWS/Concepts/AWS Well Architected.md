@@ -18,3 +18,13 @@ To build secure, high-performing, resilient, and efficient infrastructure.
 - AWS Well-Architected Tool **NO COST** in the AWS Management Console.
 
 Roles mentioned in Sustainability doc : chief technology officers (CTOs), architects, developers, and operations team members.
+
+---
+
+Loose coupling: This is a design principle that promotes independence between components in a system. It enhances flexibility and scalability by reducing dependencies. While beneficial for system architecture, it doesn't directly target cost optimization. 
+
+Rightsizing: Involves selecting the appropriate size and type of AWS resources to match the workload's actual needs. The focus is on optimizing costs by avoiding overprovisioning and ensuring resources are efficiently utilized. Regular reviews and adjustments contribute to ongoing cost-effectiveness. 
+
+Caching: Involves storing frequently accessed data to reduce the need to fetch it repeatedly from the original source. It improves performance and can indirectly contribute to cost savings by reducing the load on backend resources. The primary focus, however, is on enhancing application performance rather than direct cost optimization. 
+
+Redundancy: Involves having duplicate components to ensure high availability and fault tolerance. While crucial for reliability and minimizing downtime, redundancy's primary goal is not direct cost optimization. It can prevent costs associated with disruptions and

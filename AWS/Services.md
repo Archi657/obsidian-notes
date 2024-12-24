@@ -1,6 +1,6 @@
-# Without Classification
+## Without Classification
 **AWS Global Accelerator**: A service that uses the AWS global network to optimize the routing of traffic to applications. It improves the availability and performance of applications by utilizing anycast IP addresses. It specifically improves network performance globally. 
-**Amazon Polly**: Deploy high-quality, natural-sounding human voices in dozens of languages. -Amazon Personalize: Enhance your digital transformation with ML, seamlessly integrating personalized recommendations into websites, applications, email systems,... . 
+**Amazon Polly**: Deploy high-quality, natural-sounding human voices in dozens of languages. -**Amazon Personalize** Enhance your digital transformation with ML, seamlessly integrating personalized recommendations into websites, applications, email systems,... . 
 **Amazon Comprehend:** Derive and understand valuable insights from text within document. -Amazon Rekognition : Automate and lower the cost of your image recognition and video analysis with machine learning.
 A service that uses static IP addresses to route traffic over the AWS global network to optimal AWS endpoints based on health, geography, and routing policies. It provides highly available and performant applications with features like fast failover for multi-Region and Multi-A
 . **AWS Certificate Manager (ACM):** Primarily used for managing SSL/TLS certificates used in conjunction with AWS services like Elastic Load Balancer (ELB) or Amazon CloudFront to enable secure communication over HTTPS. It is not directly related to encrypting Amazon EBS volumes. B. **AWS Systems Manager:** Allows you to automate operational tasks across your AWS resources. While it provides features for managing system configurations, patching, and automation, it is not specifically designed for encrypting Amazon EBS volumes.
@@ -22,7 +22,6 @@ A service that uses static IP addresses to route traffic over the AWS global net
 **Amazon QuickSight** powers data-driven organizations with unified business intelligence (BI) at hyperscale. With QuickSight, all users can meet varying analytic needs from the same source of truth through modern interactive dashboards, paginated reports, embedded analytics, and natural language queries.
 **Elastic Beanstalk**, you can quickly deploy and manage applications in the AWS Cloud without having to learn about the infrastructure that runs those applications.
 
-
 **AWS X-Ray**: Helps trace requests as they travel through applications, providing insights into application performance. It is not primarily designed for auditing API calls but for understanding and debugging distributed applications.
 **Amazon Athena** is a serverless query service that allows you to analyze data directly in Amazon S3 using standard SQL queries.
 **AWS PrivateLink** enables private connectivity between VPCs (Virtual Private Clouds) and services.
@@ -37,7 +36,7 @@ A service that uses static IP addresses to route traffic over the AWS global net
 **Amazon GuardDuty:** A threat detection service that continuously monitors for malicious activity and unauthorized behavior to protect AWS accounts and workloads.
 **AWS Artifact** AWS and (ISV) Independant Software Vendor compliance reports.
 Inspector Security and Complience, EC2 exposure, vulnerabilities
-# Monitoring
+## Monitoring
 Observing systems, collecting metrics , and then using the data to make decisions.
 *Metrics: Variables tied to your resources*
 
@@ -70,14 +69,14 @@ Observing systems, collecting metrics , and then using the data to make decision
 **AWS DataSync**: A data transfer service that simplifies, automates, and accelerates moving large amounts of data between on-premises storage systems and AWS Cloud storage. It is focused on efficient data transfer.
 B. **EC2 Amazon Machine Images (AMIs)**: AMIs are used to create backups of EC2 instances, and they can be used to launch replacement instances in the event of a disaster or data loss. AMIs are essential for creating recovery points for your EC2 instances. C. 
 **Amazon Elastic Block Store (Amazon EBS) snapshots**: EBS snapshots allow you to create point-in-time backups of your EBS volumes. These snapshots can be used to restore data or create new EBS volumes, making them a key component of disaster recovery for EC2
-[[ S3 (Simple Storage Service)]]
-[[ EBS (Elastic Block Store]]
-[[ EFS (Elastic File System)]]
+[[ S3 (Simple Storage Service)]] Is not a DB service, object storage
+[[ EBS (Elastic Block Store]] Only one AZ
+[[ EFS (Elastic File System)]] Multi AZ
 EBS Single AZ, EC2 and EB2 must be on the same AZ
 EFS Regional Service, multiple AZs, can use AWS Direct Connect.
 **AWS RDS** Relational DB 
 **Amazon Aurora** Mysql Postgress - 6 copies - 1/10 price - Recovery - 5 Times Faster
-**Dynamon DB** 
+**Dynamon DB** NoSQL
 **Aamazon Redshift** Data Warehouse, Single SQL against hexabytes, larger-sets, 10 times higher performance than regular DBs
 **Amazon DMS** Amazon Database Migration Service - Remains operational during migration - Can be of diff type (Homogenous same type) (Heterogenous diff type) - DB Consolidation (many to one DB)
 **Amazon DocumentDB** MongoDB
