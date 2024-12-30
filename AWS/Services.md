@@ -1,4 +1,5 @@
 ## Without Classification
+**Amazon Resource Names (ARN)** uniquely identify AWS resources
 **AWS Global Accelerator**: A service that uses the AWS global network to optimize the routing of traffic to applications. It improves the availability and performance of applications by utilizing anycast IP addresses. It specifically improves network performance globally. 
 **Amazon Polly**: Deploy high-quality, natural-sounding human voices in dozens of languages. -**Amazon Personalize** Enhance your digital transformation with ML, seamlessly integrating personalized recommendations into websites, applications, email systems,... . 
 **Amazon Comprehend:** Derive and understand valuable insights from text within document. -Amazon Rekognition : Automate and lower the cost of your image recognition and video analysis with machine learning.
@@ -21,7 +22,7 @@ A service that uses static IP addresses to route traffic over the AWS global net
 **AWS Glue** is a serverless data integration service that makes it easier to discover, prepare, move, and integrate data from multiple sources for analytics, machine learning (ML), and application development.
 **Amazon QuickSight** powers data-driven organizations with unified business intelligence (BI) at hyperscale. With QuickSight, all users can meet varying analytic needs from the same source of truth through modern interactive dashboards, paginated reports, embedded analytics, and natural language queries.
 **Elastic Beanstalk**, you can quickly deploy and manage applications in the AWS Cloud without having to learn about the infrastructure that runs those applications.
-
+**API Gateway** handles all the tasks involved in accepting and processing up to hundreds of thousands of concurrent API calls, including traffic managemen
 **AWS X-Ray**: Helps trace requests as they travel through applications, providing insights into application performance. It is not primarily designed for auditing API calls but for understanding and debugging distributed applications.
 **Amazon Athena** is a serverless query service that allows you to analyze data directly in Amazon S3 using standard SQL queries.
 **AWS PrivateLink** enables private connectivity between VPCs (Virtual Private Clouds) and services.
@@ -83,4 +84,33 @@ EFS Regional Service, multiple AZs, can use AWS Direct Connect.
 **Amazon Neptune** is a graph database service, work with highly connected datasets, such as recommendation engines, fraud detection, and knowledge graphs.
 **Amazon Managed Blockchain** is a service that you can use to create and manage blockchain networks with open-source frameworks. Blockchain is a distributed ledger system that lets multiple parties run transactions and share data without a central authority.
 **Amazon Quantum Ledger DB (QLDB)** Ledger database service, you can use Amazon QLDB to review a complete history of all the changes that have been made to your application data.
-**Amazon ElastiCache** Improve lifting - DAX for DynamoDB# 
+**Amazon ElastiCache** is a service that adds caching layers on top of databases to help improve the read times of common requests.
+
+# Machine Learning
+
+**Amazon Sage Maker** quickly build, train, and deploy machine learning models
+**Amazon A2I** provides built-in human review workflows for common machine learning use cases, such as content moderation and text extraction from documents.
+**Amazon Lex** build conversational interfaces using voice and text.
+**Amazon Textract** extracts text and data from scanned documents.
+**AWS DeepRacer** 1/18 scale race car that you can use to test reinforcement learning models
+**Amazon Q Developer**  is a machine learning-powered code generator that provides you with code recommendations in real time.
+# IoT
+
+**Aws Ground Station**
+
+## Snow Family
+**Snowcone** is a small, rugged, and secure edge computing and data transfer device. 
+It features 2 CPUs, 4 GB of memory, and up to 14 TB of usable storage.
+
+[**AWS Snowball**(opens in a new tab)](https://aws.amazon.com/snowball/) offers two types of devices:
+
+- **Snowball Edge Storage Optimized** devices are well suited for large-scale data migrations and recurring transfer workflows, in addition to local computing with higher capacity needs. 
+    - Storage: 80 TB of hard disk drive (HDD) capacity for block volumes and Amazon S3 compatible object storage, and 1 TB of SATA solid state drive (SSD) for block volumes. 
+    - Compute: 40 vCPUs, and 80 GiB of memory to support Amazon EC2 sbe1 instances (equivalent to C5).
+- **Snowball Edge Compute Optimized** provides powerful computing resources for use cases such as machine learning, full motion video analysis, analytics, and local computing stacks. 
+    - Storage: 80-TB usable HDD capacity for Amazon S3 compatible object storage or Amazon EBS compatible block volumes and 28 TB of usable NVMe SSD capacity for Amazon EBS compatible block volumes. 
+    - Compute: 104 vCPUs, 416 GiB of memory, and an optional NVIDIA Tesla V100 GPU. Devices run Amazon EC2 sbe-c and sbe-g instances, which are equivalent to C5, M5a, G3, and P3 instances.
+
+[**AWS Snowmobile**(opens in a new tab)](https://aws.amazon.com/snowmobile) is an exabyte-scale data transfer service used to move large amounts of data to AWS. 
+
+You can transfer up to 100 petabytes of data per Snowmobile, a 45-foot long ruggedized shipping container, pulled by a semi trailer truck.

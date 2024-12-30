@@ -14,3 +14,5 @@ AWS Enterprise Support proporciona a los clientes un servicio similar al de un c
 
 Servicios de Ámbito Global:
 AWS Identity and Access Management (AWS IAM), Amazon Cloud Front, Amazon Route 53 y AWS Web Application Firewall (AWS WAF) son algunos de los servicios globales.
+
+![[Pasted image 20241229200919.png]]
