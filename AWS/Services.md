@@ -93,11 +93,11 @@ EFS Regional Service, multiple AZs, can use AWS Direct Connect.
 **Amazon Lex** build conversational interfaces using voice and text.
 **Amazon Textract** extracts text and data from scanned documents.
 **AWS DeepRacer** 1/18 scale race car that you can use to test reinforcement learning models
-**Amazon Q Developer**  is a machine learning-powered code generator that provides you with code recommendations in real time.
+**Amazon Q Developer** is a machine learning-powered code generator that provides you with code recommendations in real time.
 # IoT
 
 **Aws Ground Station**
-
+# Migration
 ## Snow Family
 **Snowcone** is a small, rugged, and secure edge computing and data transfer device. 
 It features 2 CPUs, 4 GB of memory, and up to 14 TB of usable storage.
@@ -114,3 +114,7 @@ It features 2 CPUs, 4 GB of memory, and up to 14 TB of usable storage.
 [**AWS Snowmobile**(opens in a new tab)](https://aws.amazon.com/snowmobile) is an exabyte-scale data transfer service used to move large amounts of data to AWS. 
 
 You can transfer up to 100 petabytes of data per Snowmobile, a 45-foot long ruggedized shipping container, pulled by a semi trailer truck.
+
+**AWS Data Sync** Migrate data, S3 storage class, hybrid data workflows, archive cold data.
+**Mainframe-Moderization** Refactor applications, replatform, data replication ad file transfer. application testing
+

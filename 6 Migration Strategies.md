@@ -5,7 +5,7 @@
 - Retaining
 - Retiring
 
-**Rehosting** also known as “lift-and-shift” involves moving applications without changes. 
+**Rehosting** (CloudEndure Migration, AWS VM Import/Export) also known as “lift-and-shift” involves moving applications without changes. 
 In the scenario of a large legacy migration, in which the company is looking to implement its migration and scale quickly to meet a business case, the majority of applications are rehosted.
 
 **Replatforming**, also known as “lift, tinker, and shift,” involves making a few cloud optimizations to realize a tangible benefit. Optimization is achieved without changing the core architecture of the application.

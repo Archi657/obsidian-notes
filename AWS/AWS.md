@@ -11,6 +11,7 @@ Support Plans : https://aws.amazon.com/es/premiumsupport/plans/
 [[6 Migration Strategies]]
 # Pending to review
 - [ ] review 110 question 112 from [[https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner-clf-c02/view/12/]]
+- [ ] Things such as S3 Requester Pays, S3 Object Lock, AWS Textract, Directory Services, more info on AWS Batch not just that it process batch operations, Spot new pricing and Spot Fleet. This is just on top of my head of what needs to be added.
 
 # Services
 [[Services]]
