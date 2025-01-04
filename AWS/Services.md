@@ -1,32 +1,52 @@
-## Without Classification
-**Amazon Resource Names (ARN)** uniquely identify AWS resources
+# Without Classification
+**Amazon Resource Names (ARN)** uniquely identify AWS resources.
+
 **AWS Global Accelerator**: A service that uses the AWS global network to optimize the routing of traffic to applications. It improves the availability and performance of applications by utilizing anycast IP addresses. It specifically improves network performance globally. 
-**Amazon Polly**: Deploy high-quality, natural-sounding human voices in dozens of languages. -**Amazon Personalize** Enhance your digital transformation with ML, seamlessly integrating personalized recommendations into websites, applications, email systems,... . 
+
+**Amazon Polly**: Deploy high-quality, natural-sounding human voices in dozens of languages.
+
+**Amazon Personalize** Enhance your digital transformation with ML, seamlessly integrating personalized recommendations into websites, applications, email systems.
+
 **Amazon Comprehend:** Derive and understand valuable insights from text within document. -Amazon Rekognition : Automate and lower the cost of your image recognition and video analysis with machine learning.
-A service that uses static IP addresses to route traffic over the AWS global network to optimal AWS endpoints based on health, geography, and routing policies. It provides highly available and performant applications with features like fast failover for multi-Region and Multi-A
-. **AWS Certificate Manager (ACM):** Primarily used for managing SSL/TLS certificates used in conjunction with AWS services like Elastic Load Balancer (ELB) or Amazon CloudFront to enable secure communication over HTTPS. It is not directly related to encrypting Amazon EBS volumes. B. **AWS Systems Manager:** Allows you to automate operational tasks across your AWS resources. While it provides features for managing system configurations, patching, and automation, it is not specifically designed for encrypting Amazon EBS volumes.
+
+A service that uses static IP addresses to route traffic over the AWS global network to optimal AWS endpoints based on health, geography, and routing policies. It provides highly available and performant applications with features like fast failover for multi-Region and Multi-A.
+
+**AWS Certificate Manager (ACM):** Primarily used for managing SSL/TLS certificates used in conjunction with AWS services like Elastic Load Balancer (ELB) or Amazon CloudFront to enable secure communication over HTTPS. It is not directly related to encrypting Amazon EBS volumes.
+
+**AWS Systems Manager:** Allows you to automate operational tasks across your AWS resources. While it provides features for managing system configurations, patching, and automation, it is not specifically designed for encrypting Amazon EBS volumes.
+
 **AWS Key Management Service (AWS KMS):** A fully managed service that makes it easy for you to create, control, and manage encryption keys used to encrypt your data. It integrates seamlessly with other AWS services, including Amazon EBS, for encryption purposes. D. AWS Config: Enables you to assess, audit, and evaluate the configurations of your AWS resources. It does not directly provide encryption for Amazon EBS volumes.
-[[ EC2 (Elastic Compute Cloud)]] (Virtual Server, Security Group)
-**Amazon LightSaIl** Friendly version of EC2, eg, launch wordpress
-**Elastic Container Service (ECS)** Container orchestration service
-**Elastic Container Registry (ECR)** Repository for container images
-**ECS Fargate** Serverless orchestration, do not have to upgrade/scale always run ECS
-**Elastic Kubernetes Services (EKS)** Kubernetes as a Service
-**AWS Lambda** Serverless function service
-[[ IAM ]] (Root account, Users, Groups, Politics, Roles)
+
+[[ EC2 (Elastic Compute Cloud)]] (Virtual Server, Security Group).
+
+**Amazon LightSaIl** Friendly version of EC2, eg, launch wordpress.
+
+**Elastic Container Service (ECS)** Container orchestration service.
+
+**Elastic Container Registry (ECR)** Repository for container images.
+
+**ECS Fargate** Serverless orchestration, do not have to upgrade/scale always run ECS.
+
+**Elastic Kubernetes Services (EKS)** Kubernetes as a Service.
+
+**AWS Lambda** Serverless function service.
+
+[[ IAM ]] (Root account, Users, Groups, Politics, Roles).
+
 [[ Amazon MQ ]]
 [[ Amazon Simple Queue Service (Amazon SQS)]]
 [[ Amazon Simple Notification Service (Amazon SNS)]]
 [[ Amazon Kinesis Data Streams ]]
-**AWS Service Catalog** lets you centrally manage your cloud resources to achieve governance at scale of your infrastructure as code (IaC)
+
+**AWS Service Catalog** lets you centrally manage your cloud resources to achieve governance at scale of your infrastructure as code (IaC).
 **AWS Glue** is a serverless data integration service that makes it easier to discover, prepare, move, and integrate data from multiple sources for analytics, machine learning (ML), and application development.
 **Amazon QuickSight** powers data-driven organizations with unified business intelligence (BI) at hyperscale. With QuickSight, all users can meet varying analytic needs from the same source of truth through modern interactive dashboards, paginated reports, embedded analytics, and natural language queries.
 **Elastic Beanstalk**, you can quickly deploy and manage applications in the AWS Cloud without having to learn about the infrastructure that runs those applications.
-**API Gateway** handles all the tasks involved in accepting and processing up to hundreds of thousands of concurrent API calls, including traffic managemen
+**API Gateway** handles all the tasks involved in accepting and processing up to hundreds of thousands of concurrent API calls, including traffic management.
 **AWS X-Ray**: Helps trace requests as they travel through applications, providing insights into application performance. It is not primarily designed for auditing API calls but for understanding and debugging distributed applications.
 **Amazon Athena** is a serverless query service that allows you to analyze data directly in Amazon S3 using standard SQL queries.
 **AWS PrivateLink** enables private connectivity between VPCs (Virtual Private Clouds) and services.
-## Security
+# Security
 **AWS KMS** Manage encryption key for DBs (DynamoDB)
 **AWS WAF** Checks from the **ACL** requests received, uses machine learning and denies malicious requests.
 **AWS Inspector** Gives a list of security findings, such as open access to EC2
@@ -37,7 +57,7 @@ A service that uses static IP addresses to route traffic over the AWS global net
 **Amazon GuardDuty:** A threat detection service that continuously monitors for malicious activity and unauthorized behavior to protect AWS accounts and workloads.
 **AWS Artifact** AWS and (ISV) Independant Software Vendor compliance reports.
 Inspector Security and Complience, EC2 exposure, vulnerabilities
-## Monitoring
+# Monitoring
 Observing systems, collecting metrics , and then using the data to make decisions.
 *Metrics: Variables tied to your resources*
 
@@ -46,17 +66,17 @@ Observing systems, collecting metrics , and then using the data to make decision
 **AWS CloudTrai**l: audit API calls in their AWS by capturing and logging those calls. It provides visibility into user and resource activity and can be used for security analysis, compliance checking, and troubleshooting.
 
 **AWS Trusted Advisor** Gives recommendations for (Cost optimization, Performance, Security, Fault tolerance, Service limits) in real time. Some checks are free.
-## Pricing
+# Pricing
 [[ AWS Budgets ]]
 [[ AWS Cost Explorer ]]
 [[ AWS Organizations ]]
 [[ AWS Pricing Calculator ]]
-## Infrastructure
+# Infrastructure
 [[ AWS CloudFront]] Content delivery service (edge locations) 
 [[ AWS Outposts]] Run AWS in your own Data Center (Hybrid Approach)
 [[ AWS CloudFrormation ]] Infrastructure as code
 [[ AWS Elastic Beanstalk ]] Deploy resources with code and config provided
-## Network
+# Network
 **AWS Transit Gateway** connects your Amazon Virtual Private Clouds (VPCs) and on-premises networks through a central hub. This connection simplifies your network and puts an end to complex peering relationships. Transit Gateway acts as a highly scalable cloud router—each new connection is made only once.
 **AWS Cloud Map**: AWS Cloud Map is a service for dynamic, highly available DNS-based service discovery. It is not designed for providing command line access to AWS tools and resources from a web browser.
 [[ AWS VPC (Virtual Private Cloud)]] 
@@ -64,7 +84,7 @@ Observing systems, collecting metrics , and then using the data to make decision
 **Security Group** Stateful, *in request* all blocked by default, and *out reques* all allowed, ACL Stateless (between subnets)
 [[ AWS Direct Connect ]] Data Center to AWS VPC
 [[ Amazon Route 53]] DNS
-## Storage
+# Storage
 **Amazon FSx**: A fully managed file storage service that is compatible with Windows file servers. It is designed to provide shared file storage for Windows-based applications, making it a suitable choice for the company's requirement of a fully managed Windows file server.
 **AWS Storage Gateway**: A hybrid cloud storage service that enables on-premises applications to use cloud storage seamlessly. It provides file, volume, and tape gateway interfaces to integrate on-premises environments with AWS Cloud storage. This service allows on-premises users to access virtually unlimited cloud storage while maintaining a hybrid storage infrastructure.
 **AWS DataSync**: A data transfer service that simplifies, automates, and accelerates moving large amounts of data between on-premises storage systems and AWS Cloud storage. It is focused on efficient data transfer.
@@ -87,13 +107,19 @@ EFS Regional Service, multiple AZs, can use AWS Direct Connect.
 **Amazon ElastiCache** is a service that adds caching layers on top of databases to help improve the read times of common requests.
 
 # Machine Learning
+**Amazon Sage Maker** quickly build, train, and deploy machine learning models.
 
-**Amazon Sage Maker** quickly build, train, and deploy machine learning models
 **Amazon A2I** provides built-in human review workflows for common machine learning use cases, such as content moderation and text extraction from documents.
+
 **Amazon Lex** build conversational interfaces using voice and text.
+
 **Amazon Textract** extracts text and data from scanned documents.
-**AWS DeepRacer** 1/18 scale race car that you can use to test reinforcement learning models
+
+**AWS DeepRacer** 1/18 scale race car that you can use to test reinforcement learning models.
+
 **Amazon Q Developer** is a machine learning-powered code generator that provides you with code recommendations in real time.
+
+**Amazon Bedrock Guardrails** configurable safeguards to help safely build generative AI applications at scale, responsible AI policies.
 # IoT
 
 **Aws Ground Station**
