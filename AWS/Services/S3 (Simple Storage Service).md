@@ -1,3 +1,8 @@
+---
+tags:
+  - Storage
+---
+
 Amazon S3 offers unlimited storage space. The maximum file size for an object in Amazon S3 is 5 TB, and you pay for what you use.
 There are different storage classes and you have to keep in mind
 - How often you plan to retrieve your data

@@ -1,3 +1,9 @@
+---
+creation date: 
+tags:
+  - Computing
+description: dasdasda
+---
 ## Key Features
 
 1. **Instance Types**: Variety of instance types for different workloads (e.g., General Purpose, Compute Optimized, Memory Optimized).
@@ -29,3 +35,4 @@
     - **AWS Lambda**: For event-driven or server-less workloads that don’t need full server management.
     - **AWS Fargate**: For running containerized applications without managing underlying infrastructure.
 
+![[Pasted image 20250103230824.png]]
