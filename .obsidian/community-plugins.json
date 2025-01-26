@@ -2,5 +2,9 @@
   "obsidian-kanban",
   "templater-obsidian",
   "quickadd",
-  "dataview"
+  "dataview",
+  "callout-manager",
+  "calendar",
+  "obsidian-habit-tracker",
+  "obsidian-tracker"
 ]

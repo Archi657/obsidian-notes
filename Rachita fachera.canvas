@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"94394a6ee5385ae1","type":"text","text":"```tracker\nsearchType: task.done\nsearchTarget: Svenska\ndatasetName: Svenska\nstartDate: 2025-01-01\nmonth:\n\tstartWeekOn: 'Mon'\n```","x":-1540,"y":-1180,"width":440,"height":420},
+		{"id":"c7cd924f71f62716","type":"text","text":"```tracker \nsearchType: task.done\nsearchTarget: Svenska\nstartDate: 2025-01-01\nsummary:\n    template: \"Longest Streak: {{maxStreak()}} day(s)\\nLongest Breaks: {{maxBreaks()}} day(s)\\nLast streak: {{currentStreak()}} day(s)\"\n```","x":-1540,"y":-720,"width":280,"height":120},
+		{"id":"5c9903c490481c2f","type":"text","text":"```tracker\nsearchType: task.done\nsearchTarget: AWS\ndatasetName: AWS Streak\nstartDate: 2025-01-01\nmonth:\n\tstartWeekOn: 'Mon'\n```","x":-1060,"y":-1180,"width":440,"height":420},
+		{"id":"20004fa62ea8e321","type":"text","text":"```tracker \nsearchType: task.done\nsearchTarget: Svenska\nstartDate: 2025-01-01\nsummary:\n    template: \"Longest Streak: {{maxStreak()}} day(s)\\nLongest Breaks: {{maxBreaks()}} day(s)\\nLast streak: {{currentStreak()}} day(s)\"\n```","x":-1060,"y":-720,"width":280,"height":120},
+		{"id":"9739d2e99ed4f23c","type":"text","text":"```tracker\nsearchType: task.done\nsearchTarget: Programming\ndatasetName: Programming Streak\nstartDate: 2025-01-01\nmonth:\n\tstartWeekOn: 'Mon'\n```","x":-1540,"y":-580,"width":440,"height":420},
+		{"id":"8e016c96d9c07aa3","type":"text","text":"```tracker\nsearchType: task.done\nsearchTarget: Leetcode\ndatasetName: Leetcode Streak\nstartDate: 2025-01-01\nmonth:\n\tstartWeekOn: 'Mon'\n```","x":-1060,"y":-580,"width":440,"height":420},
+		{"id":"516f63b58519a3b4","type":"text","text":"```tracker \nsearchType: task.done\nsearchTarget: Programming\nstartDate: 2025-01-01\nsummary:\n    template: \"Longest Streak: {{maxStreak()}} day(s)\\nLongest Breaks: {{maxBreaks()}} day(s)\\nLast streak: {{currentStreak()}} day(s)\"\n```","x":-1540,"y":-140,"width":280,"height":120},
+		{"id":"9a94f338f920b100","type":"text","text":"```tracker \nsearchType: task.done\nsearchTarget: Leetcode\nstartDate: 2025-01-01\nsummary:\n    template: \"Longest Streak: {{maxStreak()}} day(s)\\nLongest Breaks: {{maxBreaks()}} day(s)\\nLast streak: {{currentStreak()}} day(s)\"\n```","x":-1060,"y":-140,"width":280,"height":120}
+	],
+	"edges":[]
+}

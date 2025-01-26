@@ -1,4 +1,91 @@
+# Analytics
+**Athena** is a serverless query service that allows you to analyze data directly in Amazon S3 using standard SQL queries.
+
+**Cloud Search** set up, manage, and scale a search solution for your website or application.
+
+**Data Zone** publish data and make it available to the business data catalog through your personalized web application.
+
+**EMR** cloud big data platform for processing vast amounts of data using open source tools such as Apache Spark, Apache Hive, Apache HBase, Apache Flink, Apache Hudi, and Presto.
+run petabyte-scale analysis at less than half of the cost of traditional on-premises solutions and over 3x faster than standard Apache Spark. k. You can run workloads on Amazon EC2 instances, on Amazon Elastic Kubernetes Service (Amazon EKS) clusters, or on-premises using Amazon EMR on AWS Outposts.
+
+**FinSpace** is a data management and analytics service purpose-built for the financial services industry (FSI).
+
+**Kinesis** collect, process, and analyze real-time, streaming data - sending data to the stream from hundreds of thousands of data sources to be loaded continuously to AWS
+
+**Kinesis Data Streams** can continuously capture gigabytes of data per second from hundreds of thousands of sources such as website clickstreams, database event streams, financial transactions, social media feeds, IT logs, and location-tracking events.
+
+**Kinesis Video Streams** stream video from connected devices to AWS for analytics, ML, playback, and other processing.
+
+**OpenSearch (serverless)**  search, analyze, and visualize data in real-time.
+
+**Amazon Managed Service for Apache Flink** analyze streaming data, gain actionable insights, and respond to your business and customer needs in real time
+
+**Data Firehose** load streaming data into data stores and analytics tools.
+
+**Aamazon Redshift (serverless)** Data Warehouse, Single SQL against hexabytes, larger-sets, 10 times higher performance than regular DBs
+
+**Amazon QuickSight** powers data-driven organizations with unified business intelligence (BI) at hyperscale. With QuickSight, all users can meet varying analytic needs from the same source of truth through modern interactive dashboards, paginated reports, embedded analytics, and natural language queries.
+
+**AWS Glue** is a serverless data integration service that makes it easier to discover, prepare, move, and integrate data from multiple sources for analytics, machine learning (ML), and application development.
+
+**Clean Rooms** securely analyze and collaborate on their collective datasets–without sharing or copying one another's underlying data.
+
+**Data Exchange** to find, subscribe to, and use third-party data in the cloud.
+
+**Data Pipeline** move data between different AWS compute and storage services.
+
+**Entity Resolution** Automate Link Organize records, can remove duplicate records, create customer profiles by connecting different customer interactions, and personalize experiences across advertising and marketing campaigns, loyalty programs, and e-commerce.
+
+**Lake Formation** set up a secure data lake in dayss. A data lake is a centralized, curated, and secured repository that stores all your data, both in its original form and prepared for analysis
+
+**Amazon Managed Streaming for Apache Kafka (Amazon MSK)** Kafka to process streaming data, to populate data lakes, stream changes to and from databases, and power ML and analytics applications.
+# Application Integration
+**Step Functions**  coordinate the components of distributed applications and microservices using visual workflows
+
+**App Flow** transfer data between Software-as-a-Service (SaaS) applications such as Salesforce, Zendesk, Slack, and ServiceNow, and AWS services such as Amazon S3 and Amazon Redshift
+
+**B2B Data Interchange** EDI Documents transform to json, xml, x12.
+
+**Event Bridge** Driven event applications from SaaS apps and AWS Services, (Zendesk or Shopify) to Lamba or other app with event publisher and consumer completely decoupled.
+
+**Amazon Managed Workflows for Apache Airflow (MWAA)** Pipelines in the cloud, author, schedule, and monitor sequences of processes and tasks referred to as “workflows."
+
+**MQ** ActiveMQ - RabbitMQ message brokers, messagin protocols JMS, NMS, AMQP, STOMP, MQTT, and WebSocket.
+
+**Simple Notification Service SNS** pub/sub messaging service.
+
+**Simple Queue Service SQS** Message queue service
+
+**Simple Workflow Service SWF** idk..
+# Blockchain
+**Amazon Managed Blockchain** create and manage scalable blockchain networks
+
+# Business Applications
+
+**Alexa for business** 
+
+**AppFabric** aggregates and normalizes security data across software as a service (SaaS) applications
+
+**Chime** online meetings, video conferencing, calls, chat, and to share content
+**Chime SDK** add real-time voice, video, and messaging powered by ML into their applications
+
+**Amazon Connect** contact flows, manage agents, and track performance metrics.
+
+**Amazon Pinpoint** send targeted messages to your customers through multiple engagement channels. **email**, **SMS**, **push notifications**.
+
+**Amazon SES (Simple Email Service)** Send emails, less stats than pinpoint.
+
+**WorkDocs** Secure document sharing and content collaboration **No longuer being used**.
+
+**WorkMail** email and calendar service with support for existing desktop and mobile email client applications.
+
+# Cloud Financial Management
+**AWS Application Cost Profiler** 
+
+
 # Without Classification
+
+
 **OpsWorks** Configuration management service, chef-puppet, managed instances
 **Amazon Resource Names (ARN)** uniquely identify AWS resources.
 
@@ -22,18 +109,14 @@ A service that uses static IP addresses to route traffic over the AWS global net
 
 [[ IAM ]] (Root account, Users, Groups, Politics, Roles).
 
-[[ Amazon MQ ]]
-[[ Amazon Simple Queue Service (Amazon SQS)]]
-[[ Amazon Simple Notification Service (Amazon SNS)]]
-[[ Amazon Kinesis Data Streams ]]
 
 **AWS Service Catalog** lets you centrally manage your cloud resources to achieve governance at scale of your infrastructure as code (IaC).
-**AWS Glue** is a serverless data integration service that makes it easier to discover, prepare, move, and integrate data from multiple sources for analytics, machine learning (ML), and application development.
-**Amazon QuickSight** powers data-driven organizations with unified business intelligence (BI) at hyperscale. With QuickSight, all users can meet varying analytic needs from the same source of truth through modern interactive dashboards, paginated reports, embedded analytics, and natural language queries.
+
+
 **Elastic Beanstalk**, you can quickly deploy and manage applications in the AWS Cloud without having to learn about the infrastructure that runs those applications.
 [[API Gateway]] handles all the tasks involved in accepting and processing up to hundreds of thousands of concurrent API calls, including traffic management.
 **AWS X-Ray**: Helps trace requests as they travel through applications, providing insights into application performance. It is not primarily designed for auditing API calls but for understanding and debugging distributed applications.
-**Amazon Athena** is a serverless query service that allows you to analyze data directly in Amazon S3 using standard SQL queries.
+
 
 # Computing
 
@@ -57,7 +140,7 @@ A service that uses static IP addresses to route traffic over the AWS global net
 
 **AWS Parallel cluster** High Performance Computing (HPC) Cluster
 
-**Step Functions**  
+
 # Security
 **AWS KMS** Manage encryption key for DBs (DynamoDB).
 
@@ -85,12 +168,7 @@ Observing systems, collecting metrics , and then using the data to make decision
 **AWS CloudTrai**l: audit API calls in their AWS by capturing and logging those calls. It provides visibility into user and resource activity and can be used for security analysis, compliance checking, and troubleshooting.
 
 **AWS Trusted Advisor** Gives recommendations for (Cost optimization, Performance, Security, Fault tolerance, Service limits) in real time. Some checks are free.
-# Pricing
-[[ AWS Budgets ]]
-[[ AWS Cost Explorer ]]
-[[ AWS Organizations ]]
-[[ AWS Pricing Calculator ]]
-# Infrastructure
+
 [[ AWS CloudFront]] Content delivery service (edge locations) 
 [[ AWS Outposts]] Run AWS in your own Data Center (Hybrid Approach)
 [[ AWS CloudFrormation ]] Infrastructure as code
@@ -138,7 +216,7 @@ Observing systems, collecting metrics , and then using the data to make decision
 
 **Dynamon DB** NoSQL
 
-**Aamazon Redshift** Data Warehouse, Single SQL against hexabytes, larger-sets, 10 times higher performance than regular DBs
+
 
 **DMS Amazon Database Migration Service**  Remains operational during migration - Can be of diff type (Homogenous same type) (Heterogenous diff type) - DB Consolidation (many to one DB), on premise to AWS.
 
