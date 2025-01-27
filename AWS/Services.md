@@ -82,6 +82,55 @@ run petabyte-scale analysis at less than half of the cost of traditional on-prem
 # Cloud Financial Management
 **AWS Application Cost Profiler** 
 
+**AWS Billing Conductor** It’s about managing **customized billing workflows** and creating billing policies for accounts within a consolidated billing family.
+
+**AWS Budgets** alerting users to ensure spending stays within limits.
+
+**AWS Cost and Usage Report** detailed reporting tool, and you’ll need to recognize its use for in-depth cost analysis rather than budgeting or forecasting.
+
+**AWS Cost Explorer** Recognize it as an **interactive cost analysis tool** that helps visualize and optimize AWS spending.
+
+**AWS Marketplace** a platform for procuring **third-party solutions**.
+
+
+# Computing
+
+[[ EC2 (Elastic Compute Cloud)]] (Virtual Server, Security Group).
+
+**AWS Batch** Run batch jobs without manually managing resources. Large-scale data processing, simulations, and ML training.
+
+**Elastic Beanstalk**,  PaaS, you can quickly deploy and manage web applications in the AWS Cloud without having to learn about the infrastructure that runs those applications.
+
+**Amazon LightSaIl** Friendly version of EC2. Ideal for tasks like hosting websites, blogs, or running simple apps, includes storage, databases, and networking for running small workloads.
+
+**Amazon Local Zones** infrastructure for applications needing **low latency** in specific cities.
+
+**AWS Wavelength** edge compting solution for 5G networks. IoT, gaming, and AR/VR where **ultra-low latency** is critical.
+
+**AWS Outposts** Run AWS in your own Data Center (Hybrid Approach)
+
+**AWS Nitro System** A combination of dedicated hardware and lightweight hypervisor enabling faster innovation and enhanced security.
+
+**Bottlerocket** Linux OS by AWS for running containers on VMs or bare metal hosts.
+
+**AWS Parallel cluster** High Performance Computing (HPC) Cluster
+
+# Containers
+**Elastic Container Service (ECS)** Container orchestration service.
+
+**Elastic Container Registry (ECR)** Repository for container images.
+
+**Elastic Kubernetes Services (EKS)** Kubernetes as a Service.
+
+# Serverless
+**AWS Lambda** Serverless function service.
+
+**ECS Fargate** Serverless orchestration, do not have to upgrade/scale always run ECS.
+# Customer Engagement
+**AWS Activate for Startups** Free credits and resources for startups.
+
+**AWS IQ** a way to hire AWS experts for technical support or custom implementations.
+
 
 # Without Classification
 
@@ -113,32 +162,12 @@ A service that uses static IP addresses to route traffic over the AWS global net
 **AWS Service Catalog** lets you centrally manage your cloud resources to achieve governance at scale of your infrastructure as code (IaC).
 
 
-**Elastic Beanstalk**, you can quickly deploy and manage applications in the AWS Cloud without having to learn about the infrastructure that runs those applications.
+
 [[API Gateway]] handles all the tasks involved in accepting and processing up to hundreds of thousands of concurrent API calls, including traffic management.
 **AWS X-Ray**: Helps trace requests as they travel through applications, providing insights into application performance. It is not primarily designed for auditing API calls but for understanding and debugging distributed applications.
 
 
-# Computing
 
-[[ EC2 (Elastic Compute Cloud)]] (Virtual Server, Security Group).
-
-**Amazon LightSaIl** Friendly version of EC2, eg, launch wordpress.
-
-**Elastic Container Service (ECS)** Container orchestration service.
-
-**Elastic Container Registry (ECR)** Repository for container images.
-
-**ECS Fargate** Serverless orchestration, do not have to upgrade/scale always run ECS.
-
-**Elastic Kubernetes Services (EKS)** Kubernetes as a Service.
-
-**AWS Lambda** Serverless function service.
-
-**AWS Nitro System** A combination of dedicated hardware and lightweight hypervisor enabling faster innovation and enhanced security.
-
-**Bottlerocket** Linux OS by AWS for running containers on VMs or bare metal hosts.
-
-**AWS Parallel cluster** High Performance Computing (HPC) Cluster
 
 
 # Security
@@ -170,7 +199,7 @@ Observing systems, collecting metrics , and then using the data to make decision
 **AWS Trusted Advisor** Gives recommendations for (Cost optimization, Performance, Security, Fault tolerance, Service limits) in real time. Some checks are free.
 
 [[ AWS CloudFront]] Content delivery service (edge locations) 
-[[ AWS Outposts]] Run AWS in your own Data Center (Hybrid Approach)
+[[ AWS Outposts]] 
 [[ AWS CloudFrormation ]] Infrastructure as code
 [[ AWS Elastic Beanstalk ]] Deploy resources with code and config provided
 # Network
