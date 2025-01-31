@@ -12,5 +12,6 @@
 - [ ] Svenska
 - [ ] Programming
 - [ ] Leetcode
+- [ ] Cybersecurity
 
 ### Achievements of the day
