@@ -131,6 +131,7 @@ run petabyte-scale analysis at less than half of the cost of traditional on-prem
 
 **AWS IQ** a way to hire AWS experts for technical support or custom implementations.
 
+**Amazon AMS** Guidance and operational execution of operational best practiices.
 
 # Without Classification
 
@@ -244,8 +245,6 @@ Observing systems, collecting metrics , and then using the data to make decision
 **Amazon Aurora** Mysql Postgress - 6 copies - 1/10 price - Recovery - 5 Times Faster
 
 **Dynamon DB** NoSQL
-
-
 
 **DMS Amazon Database Migration Service**  Remains operational during migration - Can be of diff type (Homogenous same type) (Heterogenous diff type) - DB Consolidation (many to one DB), on premise to AWS.
 
