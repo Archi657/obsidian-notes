@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Frameworks/Spring.md",
+                "file": "AWS/AWS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spring"
+              "title": "AWS"
             }
           }
         ]
@@ -171,11 +171,19 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false,
+      "callout-manager:Insert Callout": false
     }
   },
-  "active": "ac89c859587e8874",
+  "active": "90b52d0f71877499",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20250530135032.png",
+    "Attachments/Pasted image 20250530135050.png",
+    "Attachments/Pasted image 20250530135116.png",
+    "AWS/Services.md",
+    "Programming/Frameworks/Spring.md",
     "Attachments/Pasted image 20250420152004.png",
     "Programming/Languages.md",
     "Frameworks.md",
@@ -190,10 +198,8 @@
     "Attachments/Pasted image 20250103230824.png",
     "Attachments/Pasted image 20241229200919.png",
     "Programming/Frameworks/Flask.md",
-    "Programming/Frameworks/Spring.md",
     "Programming/Frameworks/React/React.md",
     "Programming/Frameworks/React/Docker React.md",
-    "AWS/Services.md",
     "AWS/Concepts/AWS CAF.md",
     "AWS/AWS.md",
     "AWS/Concepts/6 Migration Strategies.md",
