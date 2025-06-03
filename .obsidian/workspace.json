@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/AWS.md",
+                "file": "Programming/Frameworks/Spring.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS"
+              "title": "Spring"
             }
           }
         ]
@@ -177,17 +177,28 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "90b52d0f71877499",
+  "active": "ac89c859587e8874",
   "lastOpenFiles": [
+    "Linux/Docker.md",
+    "Programming/Frameworks/Spring.md",
+    "Programming/Languages/Java.md",
+    "Programming/Languages.md",
+    "Programming/Programming.md",
+    "Programming/Languages/Systems Programming C.md",
+    "Programming/Languages/C.md",
+    "Programming/Languages/Bash.md",
+    "Programming/Languages/Python.md",
+    "Linux/Linux.md",
+    "Attachments/Pasted image 20250602220025.png",
+    "Linux/VI.md",
+    "Programming/Frameworks/React/Docker React.md",
+    "AWS/AWS.md",
     "Attachments/Pasted image 20250530135032.png",
     "Attachments/Pasted image 20250530135050.png",
     "Attachments/Pasted image 20250530135116.png",
     "AWS/Services.md",
-    "Programming/Frameworks/Spring.md",
     "Attachments/Pasted image 20250420152004.png",
-    "Programming/Languages.md",
     "Frameworks.md",
-    "Programming/Programming.md",
     "templates/Notas.md",
     "2025-01-17.md",
     "2025-01-28.md",
@@ -199,23 +210,13 @@
     "Attachments/Pasted image 20241229200919.png",
     "Programming/Frameworks/Flask.md",
     "Programming/Frameworks/React/React.md",
-    "Programming/Frameworks/React/Docker React.md",
     "AWS/Concepts/AWS CAF.md",
-    "AWS/AWS.md",
     "AWS/Concepts/6 Migration Strategies.md",
     "AWS/Concepts/AWS Well Architected.md",
     "Notes/aaa.md",
     "AWS/Services/Untitled.canvas",
     "Untitled.md",
-    "Untitled 1.md",
-    "Untitled 1dsds.md",
-    "Untitled 2.md",
-    "AWS/Services/API Gateway.md",
-    "AWS/Services/EBS (Elastic Block Store.md",
-    "AWS/Services/EC2 (Elastic Compute Cloud).md",
-    "AWS/Services/0- All Services.md",
     "Attachments/Pasted image 20241230120920.png",
-    "Attachments/Pasted image 20241223204100.png",
     "Notes",
     "templates",
     "Attachments",
