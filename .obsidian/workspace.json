@@ -13,12 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Languages/Python.md",
+                "file": "Amazon Connect.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python"
+              "title": "Amazon Connect"
+            }
+          },
+          {
+            "id": "943d2aec9db633b3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -27,16 +37,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Frameworks/FastAPI.md",
+                "file": "AWS/AWS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FastAPI"
+              "title": "AWS"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,32 +191,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "144692e5935bdeac",
+  "active": "ac89c859587e8874",
   "lastOpenFiles": [
-    "Programming/Languages/Python.md",
+    "AWS/Services.md",
+    "AWS/AWS.md",
+    "Amazon Connect.md",
+    "Attachments/Pasted image 20250803215931.png",
     "Programming/Frameworks/FastAPI.md",
-    "Programming/Frameworks/React/Docker React.md",
+    "Programming/Languages/Systems Programming C.md",
+    "Programming/Languages/Java.md",
+    "Programming/Languages/C.md",
+    "Programming/Languages/Mongodb.md",
     "Linux/Docker.md",
+    "Linux/VI.md",
+    "Linux/Linux.md",
+    "Programming/Languages/Python.md",
     "Programming/Languages/Bash.md",
     "Programming/Languages.md",
-    "AWS/Services.md",
+    "Programming/Programming.md",
+    "Programming/Frameworks/React/React.md",
+    "Programming/Frameworks/React/Docker React.md",
     "Programming/Frameworks/Spring.md",
     "2025-01-17.md",
     "2025-01-28.md",
     "Daily Notes Template.md",
     "Frameworks.md",
     "Rachita fachera.canvas",
-    "Programming/Frameworks/React/React.md",
     "Programming/Frameworks/Flask.md",
     "Attachments/Pasted image 20250610202848.png",
-    "Programming/Languages/Systems Programming C.md",
-    "Programming/Languages/C.md",
-    "Programming/Programming.md",
-    "Programming/Languages/Java.md",
-    "Linux/Linux.md",
     "Attachments/Pasted image 20250602220025.png",
-    "Linux/VI.md",
-    "AWS/AWS.md",
     "Attachments/Pasted image 20250530135032.png",
     "Attachments/Pasted image 20250530135050.png",
     "Attachments/Pasted image 20250530135116.png",
@@ -216,11 +228,7 @@
     "Attachments/Pasted image 20250104201655.png",
     "Attachments/Pasted image 20250104113721.png",
     "Attachments/Pasted image 20250103230824.png",
-    "Attachments/Pasted image 20241229200919.png",
     "AWS/Concepts/AWS CAF.md",
-    "AWS/Concepts/6 Migration Strategies.md",
-    "AWS/Concepts/AWS Well Architected.md",
-    "Notes/aaa.md",
     "AWS/Services/Untitled.canvas",
     "Notes",
     "templates",

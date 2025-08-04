@@ -13,7 +13,6 @@ Safer alternative is
 ### Access local variables
 `char **environ`
 
-
 ## IPC
 Interprocess communication (IPC), including the following:
 - signals, which are used to indicate that an event has occurred;

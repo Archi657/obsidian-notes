@@ -69,7 +69,7 @@ run petabyte-scale analysis at less than half of the cost of traditional on-prem
 **Chime** online meetings, video conferencing, calls, chat, and to share content
 **Chime SDK** add real-time voice, video, and messaging powered by ML into their applications
 
-**Amazon Connect** contact flows, manage agents, and track performance metrics.
+[[Amazon Connect]] contact flows, manage agents, and track performance metrics.
 
 **Amazon Pinpoint** send targeted messages to your customers through multiple engagement channels. **email**, **SMS**, **push notifications**.
 
