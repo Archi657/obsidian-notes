@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amazon Connect.md",
+                "file": "Programming/Languages/Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon Connect"
+              "title": "Python"
             }
           },
           {
@@ -37,15 +37,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/AWS.md",
+                "file": "Amazon Connect.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS"
+              "title": "Amazon Connect"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -172,6 +173,16 @@
               "icon": "lucide-list",
               "title": "Outline of FastAPI"
             }
+          },
+          {
+            "id": "7faf66953092b20c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
         "currentTab": 3
@@ -188,27 +199,32 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-kanban:Create new board": false,
+      "templater-obsidian:Templater": false,
+      "callout-manager:Insert Callout": false
     }
   },
-  "active": "ac89c859587e8874",
+  "active": "144692e5935bdeac",
   "lastOpenFiles": [
-    "AWS/Services.md",
-    "AWS/AWS.md",
     "Amazon Connect.md",
+    "Attachments/Pasted image 20250807090920.png",
+    "AWS/Services.md",
+    "AWS VPC (Virtual Private Cloud).md",
+    "AWS/AWS.md",
+    "Programming/Languages/Python.md",
+    "Programming/Languages/Systems Programming C.md",
+    "Programming/Languages.md",
+    "Programming/Programming.md",
     "Attachments/Pasted image 20250803215931.png",
     "Programming/Frameworks/FastAPI.md",
-    "Programming/Languages/Systems Programming C.md",
     "Programming/Languages/Java.md",
     "Programming/Languages/C.md",
     "Programming/Languages/Mongodb.md",
     "Linux/Docker.md",
     "Linux/VI.md",
     "Linux/Linux.md",
-    "Programming/Languages/Python.md",
     "Programming/Languages/Bash.md",
-    "Programming/Languages.md",
-    "Programming/Programming.md",
     "Programming/Frameworks/React/React.md",
     "Programming/Frameworks/React/Docker React.md",
     "Programming/Frameworks/Spring.md",
@@ -227,8 +243,6 @@
     "templates/Notas.md",
     "Attachments/Pasted image 20250104201655.png",
     "Attachments/Pasted image 20250104113721.png",
-    "Attachments/Pasted image 20250103230824.png",
-    "AWS/Concepts/AWS CAF.md",
     "AWS/Services/Untitled.canvas",
     "Notes",
     "templates",
