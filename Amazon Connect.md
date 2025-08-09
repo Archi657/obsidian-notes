@@ -7,6 +7,12 @@
 Direct Inward Dialing (DID) / Direct Dial Number
 **E.164** is a unified global phone number format defined by the International Telecommunication Union (ITU). This format provides international compatibility across telephony systems.
 **Call forwarding** is a phone management feature that redirects incoming calls from one telephone number to an alternate number.
+**Number porting** Organizations can use number porting to keep their existing phone numbers when migrating their contact center workloads to new carriers.
+**SBC** A session border controller (SBC) is a specialized device that protects and controls the flow of IP based communications.
+**WebRTC** Web Real-Time Communication (WebRTC) is a project that provides real-time communication capabilities in web browsers and mobile applications. It makes it possible to have peer-to-peer audio, video, and data sharing without the need for proprietary plugins or third-party software installations.
+**SRTC** The Secure Real-Time Transport Protocol (SRTP) provides encryption and authentication for real-time multimedia communications, such as VoIP and video over IP networks.
+**TLC** TLS is a widely adopted security protocol designed to facilitate privacy and data security for communications over the internet.
+**VDI** Virtual desktop infrastructure (VDI) is a virtualization technology that makes it possible for users to access a virtual desktop environment from a remote location.
 ![[Pasted image 20250807090920.png]]
 ## Contact Lenses
 - Sentiment analysis
