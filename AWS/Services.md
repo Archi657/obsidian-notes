@@ -193,7 +193,7 @@ Inspector Security and Complience, EC2 exposure, vulnerabilities
 Observing systems, collecting metrics , and then using the data to make decisions.
 *Metrics: Variables tied to your resources*
 
-**CloudWatch** is a monitoring service that can be used to collect and track metrics, logs, and events from various AWS resources. It supports setting up alarms based on cost metrics.
+**[[CloudWatch]]** is a monitoring service that can be used to collect and track metrics, logs, and events from various AWS resources. It supports setting up alarms based on cost metrics.
 
 **AWS CloudTrai**l: audit API calls in their AWS by capturing and logging those calls. It provides visibility into user and resource activity and can be used for security analysis, compliance checking, and troubleshooting.
 

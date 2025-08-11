@@ -1,3 +1,5 @@
+JSONPATH https://docs.aws.amazon.com/connect/latest/adminguide/connect-attrib-list.html
+[[Amazon Connect Workshop Bootcamp]]
 ## Concepts
 
 **PSTN** Public Switched Telephone Network (PSTN) is the traditional circuit-switched telephone network for voice calls.
@@ -26,6 +28,18 @@ Default values
 - Concurrent post-call analytics job : 200
 - Concurrent chat analytics jobs : 200
 - Concurrent post-contact summary jobs :10
+- The service quota is 70 Amazon Lex V1 bots for each Amazon Connect instance. 
+- The service quota is 100 Amazon Lex V2 bot aliases for each Amazon Connect instance.
+- - The default service quota for concurrent active voice calls is 10. 
+- The service quota for concurrent active chats for each instance is 100.JS
+------
+- Number of Routing profiles per instance
+- Number of Quick connects per instance
+- Number of Hours of operation per instance
+- Number of Queues per instance
+- Number of Queues per routing profile per instance
+- Number of Predefined attributes per instance
+- Number of Proficiencies per agent
 
 
 # Flow
