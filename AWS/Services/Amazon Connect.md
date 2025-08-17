@@ -1,5 +1,7 @@
 JSONPATH https://docs.aws.amazon.com/connect/latest/adminguide/connect-attrib-list.html
 [[Amazon Connect Workshop Bootcamp]]
+![[Pasted image 20250813095725.png]]
+https://catalog.workshops.aws/amazon-connect-operational-workshop/en-US/2amazonconnectoperationseventdriveninsights/27differenceofdatatypes
 ## Concepts
 
 **PSTN** Public Switched Telephone Network (PSTN) is the traditional circuit-switched telephone network for voice calls.
