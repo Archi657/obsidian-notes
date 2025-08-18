@@ -1,6 +1,8 @@
 [[Flask]]
 [[FastAPI]]
 [[Numpy]]
+[[Matplotlib]]
+[[Pandas]]
 ### Create virtual Env
 `pip install virtualenv` if you do not have it in your system
 `virtualenv p1` this creates a folder p1
@@ -11,3 +13,6 @@ import osfrom dotenv
 import load_dotenvload_dotenv()
 GCP_PROJECT_ID = os.getenv('GCP_PROJECT_ID')
 ```
+### Dictionary
+Delete
+`del(europe["australia"])`
