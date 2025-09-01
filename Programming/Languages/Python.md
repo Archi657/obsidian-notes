@@ -16,3 +16,14 @@ GCP_PROJECT_ID = os.getenv('GCP_PROJECT_ID')
 ### Dictionary
 Delete
 `del(europe["australia"])`
+### For
+method () , function(parm)
+```Python
+for index, item in enumerate(list):
+# dictionary
+for k, v in dict.items()
+# np array
+for val in np.nditer(np_array)
+#pd 
+for lab, row in brics.iterrows():
+```

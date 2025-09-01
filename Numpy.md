@@ -16,6 +16,12 @@ BMI
 height = np.round(np.random.normal(1.75, 0.20, 5000),2)
 weight = np.round(np.random.normal(60.32, 15, 5000),2)
 np_city = np.column_stack((height, weight))
+####
+np.random.seed(123)
+# Use randint() to simulate a dice
+print(np.random.randint(1,7))
+# Use randint() again
+print(np.random.randint(1,7))
 ```
 ### Functions
 ```Python
@@ -32,4 +38,10 @@ print("Standard Deviation: " + str(stddev))
 # Print out correlation between first and second column
 corr = np.corrcoef(np_baseball[:,0], np_baseball[:,1])
 print("Correlation: " + str(corr))
+
 ```
+### To Compare
+```Python
+
+```
+### Random

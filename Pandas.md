@@ -16,3 +16,17 @@ cars.index = row_labels
 ![[Pasted image 20250817174718.png]]
 ![[Pasted image 20250817174806.png]]
 ![[Pasted image 20250817174848.png]]
+### For
+```Python
+brics = pd.read_csv('xx', index_row=0)
+for lab, row in brics.iterrows():
+	print(lab + ": " + row['capital'])
+
+## Add Column
+
+for lab, row in brincs.iterrows():
+	brincs.loc[lab, "name_length"] = len(row["country"])
+
+## for larguer datasets use apply
+brics["name_length"] = brincs["country"].apply(len)
+```
