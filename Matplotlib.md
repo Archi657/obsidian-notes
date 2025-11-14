@@ -4,6 +4,7 @@ year = [1950, 1970, 1990, 2010]
 pop = [2.519, 3.692, 5.263, 4,321]
 
 plt.plot(year, pop)
+plt.plot(kind="line")
 
 plt.xlabel('year')
 plt.ylabel('populaation')
@@ -13,6 +14,14 @@ plt.yticks([0,2,4,6],
 plt.grid(True)
 plt.scatter(year, pop) # points
 plt.show()
+# rotate label
+plt.plot(rot=45)
+# Add a legend (specify what color is what)
+plt.legend(["F","M"])
+# transparency
+.hist(alpha=0.7)
+# from dataset
+avocados[avocados["type"] == "organic"]["avg_price"].hist()
 ```
 ### Histogram
 ![[Pasted image 20250817115719.png]]

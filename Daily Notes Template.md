@@ -13,5 +13,6 @@
 - [ ] Programming
 - [ ] Leetcode
 - [ ] Cybersecurity
+- [ ] German
 
 ### Achievements of the day

@@ -1,3 +1,7 @@
+Alternative to the regular python list, the numpy array, it is the same but with extra features to do such different calculations, and it is extra fast. To install you will need `pip3 install numpy`
+
+Multiple data types will be unified like 1.3, 'hi', True will create a string array, different types = different behaviors.
+Multiply 2 arrays
 ```Python
 import numpy as np
 
