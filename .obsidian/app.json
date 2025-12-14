@@ -1,4 +1,5 @@
 {
   "attachmentFolderPath": "Attachments",
-  "propertiesInDocument": "visible"
+  "propertiesInDocument": "visible",
+  "promptDelete": false
 }

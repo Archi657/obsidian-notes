@@ -15,7 +15,11 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "Notes",
+      "folder": "",
+      "template": "templates/Russian Vocabulary.md"
+    },
+    {
+      "folder": "",
       "template": "templates/Notas.md"
     }
   ],

@@ -77,7 +77,7 @@ public class Student{
 
 ```
 ### Entity Value
- @GeneratedValue (strategy=)
+ ==@GeneratedValue== (strategy=)
  https://stackoverflow.com/questions/47676403/spring-generatedvalue-annotation-usage
  **GenerationType.AUTO** : Default and let's persistance to choose, for example hibernate will use a strategy depending the db, in almost every it will use **GenerationType.SEQUENCE***.
 **GenerationType.IDENTITY** : Auto-increment.
@@ -85,7 +85,7 @@ public class Student{
 **GenerationType.TABLE**  : Rarely used.
 
 ### DAO Data Access Object
-@Repository 
+==@Repository== 
 Implements methods and talks to the db. It will talk to the data entity manager, this one needs a data source which is the db connection info.
 
 First we add an interface and then we implement it.
