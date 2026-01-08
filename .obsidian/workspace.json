@@ -4,31 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "63b1abbe8418dd98",
+        "id": "41b73091c4c4ae93",
         "type": "tabs",
         "children": [
           {
-            "id": "93d57ed8932cdb91",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "5c00c4e299361042",
+            "id": "85520ef8f89a7e3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/Russian/Grammar/Adjectives Agreement.md",
+                "file": "Hacking/HackTheBox/FlagCasino.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Adjectives Agreement"
+              "title": "FlagCasino"
+            }
+          },
+          {
+            "id": "c8619646db27242b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hacking/HackTheBox/Blessed.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Blessed"
             }
           }
         ]
@@ -88,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 377.5,
+    "collapsed": true
   },
   "right": {
     "id": "6be0a25f1759ea0f",
@@ -189,56 +194,55 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "93d57ed8932cdb91",
+  "active": "85520ef8f89a7e3b",
   "lastOpenFiles": [
-    "Languages/Russian/Grammar/Compabilities.md",
-    "Languages/Russian/Grammar/Adjectives Agreement.md",
-    "templates/Notas.md",
+    "Hacking/HackTheBox/Blessed.md",
+    "Hacking/HackTheBox/FlagCasino.md",
+    "templates/Hack The Box Machine-Challenge.md",
+    "Attachments/Pasted image 20260108224411.png",
+    "Attachments/Pasted image 20251118132026.png",
+    "templates/Russian Vocabulary.md",
+    "templates/Hacking Notes.md",
+    "Programming/DataScience/Pandas.md",
+    "Languages/Russian/Vocabulary/Verbs/бояться - to be afraid.md",
     "Languages/Russian/Vocabulary/Adjectives/знаменитый - famous.md",
+    "Languages/Russian/Grammar/Adjectives Agreement.md",
+    "Hacking/General/IP Blocking requests.md",
+    "Hacking/General",
+    "Hacking/HackTheBox",
+    "Hacking",
+    "Languages/Russian/Grammar/Genetive Case.md",
+    "Languages/Russian/Grammar/Dative Case.md",
+    "Languages/Russian/Grammar/Compabilities.md",
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "Untitled.base",
+    "Programming/AWS/Services/S3 (Simple Storage Service).md",
+    "Programming/AWS/Services.md",
+    "Programming/AWS/AWS.md",
+    "Programming/AWS/Concepts/6 Migration Strategies.md",
+    "Programming/AWS/Concepts/Cloud Computing General.md",
+    "Programming/AWS/Concepts/AWS CAF.md",
+    "Programming/AWS/Concepts/AWS Well Architected.md",
+    "templates/Notas.md",
     "Languages/Russian/Russian Dashboard.md",
     "Languages/Russian/Vocabulary/Nouns/буква - letter.md",
     "Languages/Russian/Vocabulary/Verbs/аннулировать - to cancel.md",
-    "Languages/Russian/Vocabulary/Verbs/бояться - to be afraid.md",
     "Languages/Russian/Vocabulary/Verbs/заплакать - to start crying.md",
-    "Languages/Russian/Vocabulary/Verbs/платить - to pay.md",
-    "Interview Java Questions.md",
-    "Untitled.md",
-    "notas xd.md",
-    "Codelety.md",
-    "dsds.md",
-    "Daily Notes Template.md",
-    "2025-10-22.md",
-    "2025-12-14.md",
-    "templates/Russian Noun.md",
-    "Languages/Russian/Vocabulary/Nouns/sdsds.md",
-    "Languages/Russian/Vocabulary/Nouns/casa.md",
-    "templates/Russian Adjective.md",
-    "templates/Russian Daily Study.md",
-    "templates/Russian Expression.md",
-    "templates/Russian Grammar.md",
-    "templates/Russian Verb.md",
     "Untitled 4.base",
     "Untitled 5.base",
-    "Untitled.base",
-    "Untitled 1.base",
     "Languages/Russian/Vocabulary/Grammar",
     "Untitled 3.base",
-    "Untitled 2.base",
-    "Languages/Russian/Vocabulary/Adjectivess",
-    "Languages/Russian/Verbs",
     "Untitled.canvas",
-    "Languages/Russian/Listening",
     "Rachita fachera.canvas",
     "Attachments/Pasted image 20250817174848.png",
     "Attachments/Pasted image 20251110212813.png",
     "Attachments/architecture.png",
     "Attachments/Pasted image 20250104113721.png",
-    "Attachments/Pasted image 20251118132026.png",
     "Attachments/Pasted image 20251113155109.png",
     "Attachments/Pasted image 20251110214224.png",
     "Attachments/Pasted image 20251020221418.png",
     "Attachments/Pasted image 20251018153750.png",
-    "Attachments/Pasted image 20250817174806.png",
     "Programming/AWS/Services/Untitled.canvas"
   ]
 }
